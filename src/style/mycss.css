@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: "Futura", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    min-height: 100vh;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0 50px;
+    background-color: white;
+}
+
+.card {
+    width: 300px;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    max-height: 460px;
+    position: relative;
+}
+
+.popup img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.popup h2 {
+    margin-bottom: 5px;
+}
+
+.popup p {
+    margin-bottom: 10px;
+}
+
+.popup .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 37px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.popup .close:hover {
+    color: #777;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.btn-add {
+    text-align: left;
+    margin: 15px;
+}
+
+.add-staff-btn {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.add-staff-btn:hover {
+    background-color: orange;
+    color: #fff;
+}
